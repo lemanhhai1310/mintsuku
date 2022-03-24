@@ -7,10 +7,13 @@ $(document).ready(function(){
 
     // SmartWizard initialize
     $('#smartwizard').smartWizard({
-        lang: { // Language variables for button
-            next: 'Next',
-            previous: 'Previous'
-        },
+        toolbarSettings: {
+            toolbarPosition: 'bottom', // none, top, bottom, both
+            toolbarButtonPosition: 'right', // left, right, center
+            showNextButton: false, // show/hide a Next button
+            showPreviousButton: false, // show/hide a Previous button
+            toolbarExtraButtons: [] // Extra buttons to show on toolbar, array of jQuery input/buttons elements
+        }
     });
 
 });

@@ -8,13 +8,13 @@
 
 @import 'base/color';
 //@import 'base/reset';
-@import 'base/fonts';
+//@import 'base/fonts';
 @import 'base/typography';
 @import 'base/helpers';
 @import 'base/uikits';
 
-@import 'components/grid';
-@import 'components/margin';
+//@import 'components/grid';
+//@import 'components/margin';
 @import 'components/buttons';
 @import 'components/carousel';
 @import 'components/slider';
@@ -29,7 +29,7 @@
 @import "components/items";
 
 @import 'layout/navigation';
-@import 'layout/grid';
+//@import 'layout/grid';
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/sidebar';

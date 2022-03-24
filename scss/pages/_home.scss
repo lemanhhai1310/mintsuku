@@ -1,4 +1,16 @@
 .home{
+  &__smartwizard{
+    border: none;
+  }
+  &__nav{
+
+    .nav-link{
+      padding: 0 !important;
+      &:after{
+        display: none;
+      }
+    }
+  }
   &__item5{
     &:nth-child(n+2){
       margin-top: 5px;
@@ -32,12 +44,14 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 40px;
+    box-shadow: none !important;
     @include media-breakpoint-down('s'){
       display: none;
     }
     &__li{
-      display: flex;
+      display: flex !important;
       align-items: center;
+      flex-grow: initial !important;
       &:nth-child(n+2){
         &:before{
           content: "";

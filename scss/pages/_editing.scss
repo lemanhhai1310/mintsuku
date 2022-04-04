@@ -1,4 +1,60 @@
 .editing{
+  &__modal{
+    &__dialog{
+      width: 479px;
+    }
+    &__btn{
+      width: 100%;
+      &.btn-default{
+        background-color: rgb(158, 158, 158);
+        color: #ffffff;
+      }
+      &.btn-danger{
+        background-color: rgb(244, 67, 54);
+      }
+    }
+    &__txt1{
+      font-size: 18px;
+      color: red;
+      font-weight: 700;
+    }
+    &__txt2{
+      color: rgba(0,0,0,0.54);
+      font-size: 16px;
+    }
+  }
+  &__box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &__img{
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' stroke='currentColor' fill='currentColor' class='MuiSvgIcon-root' focusable='false' viewBox='0 0 24 24' aria-hidden='true' height='1em' width='1em'%3E%3Cpath d='M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z'%3E%3C/path%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: center left;
+      padding-left: 20px;
+    }
+    &__time{
+      background-repeat: no-repeat;
+      background-position: center left;
+      padding-left: 20px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' stroke='currentColor' fill='currentColor' class='MuiSvgIcon-root' focusable='false' viewBox='0 0 24 24' aria-hidden='true' height='1em' width='1em'%3E%3Cpath d='M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z'%3E%3C/path%3E%3Cpath d='M12.5 7H11v6l5.25 3.15.75-1.23-4.5-2.67z'%3E%3C/path%3E%3C/svg%3E");
+      a{
+        color: rgb(211, 47, 47);
+      }
+    }
+  }
+  &__back{
+    max-width: 550px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 100%;
+    border-radius: 0;
+    background-color: #3B3B3B;
+    border-color: #3B3B3B;
+    color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg stroke='%23fff' fill='%23fff' stroke-width='0' viewBox='0 0 512 512' height='1em' width='1em' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M217.9 256L345 129c9.4-9.4 9.4-24.6 0-33.9-9.4-9.4-24.6-9.3-34 0L167 239c-9.1 9.1-9.3 23.7-.7 33.1L310.9 417c4.7 4.7 10.9 7 17 7s12.3-2.3 17-7c9.4-9.4 9.4-24.6 0-33.9L217.9 256z'%3E%3C/path%3E%3C/svg%3E");
+    background-position: center left 10px;
+    background-repeat: no-repeat;
+  }
   &__section{
     padding: 40px 0;
   }
